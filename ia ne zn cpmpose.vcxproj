@@ -140,6 +140,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="ia ne zn cpmpose.cpp" />
+    <ClCompile Include="line.cpp" />
+    <ClCompile Include="Point.cpp" />
+    <ClCompile Include="Point3d.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="line.h" />
+    <ClInclude Include="Point.h" />
+    <ClInclude Include="Point3d.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
