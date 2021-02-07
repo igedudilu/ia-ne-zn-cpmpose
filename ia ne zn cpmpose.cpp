@@ -13,7 +13,7 @@ using namespace std;
 int main()
 {
 	setlocale(LC_ALL, "Russian");
-	cout << "создание потомков";
+	cout << "создание потомков\n";
 	{
 		Point3d* p = new Point3d(1, 2, 3);;
 		Point3d* p2 = new Point3d(10, 20, 30);
@@ -38,7 +38,7 @@ int main()
 	cout << "Конец" << endl << endl;
 
 
-	cout << "помещение потомка в базовый класс";
+	cout << "помещение потомка в базовый класс\n";
 	{
 		Point* p = new Point3d(10, 20, 30);
 
